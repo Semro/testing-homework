@@ -4,13 +4,14 @@
         "esModuleInterop": true,
         "noImplicitAny": true,
         "module": "es6",
-        "target": "es5",
-        "allowJs": true,
+        "target": "es6",
+        // "allowJs": true,
         "jsx": "react",
         "moduleResolution": "node"
     },
     "include": [
-        "src"
+        "src",
+        "test"
     ],
     "ts-node": {
         "compilerOptions": {
