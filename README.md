@@ -1,3 +1,23 @@
+# Как запускать
+
+Версия NodeJS: 20.3.1
+
+Подготовка проекта
+
+```sh
+git clone https://github.com/Semro/testing-homework.git
+cd testing-homework
+git checkout tests
+npm ci
+npm run build
+```
+
+Проверка на баги
+
+```sh
+npx cross-env BUG_ID=4 npm run test
+```
+
 # Домашнее задание: Автотесты
 
 Вам дано приложение — интернет магазин. С его помощью можно смотреть каталог товаров, добавлять товары в корзину и оформлять заказы.
